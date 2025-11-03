@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if exist resourcesvocabulary.db del /f resourcesvocabulary.db)",
+      "Bash(python main.py:*)",
+      "Bash(source venv/Scripts/activate)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
